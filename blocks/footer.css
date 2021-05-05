@@ -1,0 +1,91 @@
+.footer {
+  display: flex;
+  max-width: 1920px;
+  max-height: 436px;
+  background-color: #2E2468;
+  padding: 90px 149px 82px 135px;
+}
+
+.footer__donation {
+  display: flex;
+  align-items: center;
+}
+
+.footer__logo {
+  width: 415px;
+  height: 76px;
+  margin: 0 85px 0 0;
+}
+
+.footer__button-donation {
+  background-image: url(../../../images/donation.svg);
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0;
+  border: none;
+  outline: none;
+  width: 169px;
+  height: 48px;
+}
+
+.footer__creators {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__copyright {
+  color: #C8D1FF;
+  margin: 124px 0 12px 0;
+}
+
+.footer-creators-links {
+  display: flex;
+}
+
+.footer__creators-link {
+  color: #F3F2F2;
+  font-family: 'PT Root UI';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0 30px 0 0;
+}
+
+.footer__columns {
+  display: flex;
+  padding: 0 0 0 131px;
+}
+
+.footer__column-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__column_content_info {
+  margin-right: 44px;
+}
+
+.footer__column-item {
+  margin-bottom: 20px;
+}
+
+.footer__column-item:last-child {
+  margin-bottom: 0;
+}
+
+.footer__column-link {
+  font-family: 'Proto Grotesk Web Light';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: #F3F2F2;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
