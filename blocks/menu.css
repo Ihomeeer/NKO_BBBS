@@ -1,0 +1,92 @@
+.menu {
+  display: flex;
+  max-width: 1170px;
+  height: 30px;
+  margin: 40px auto 0;
+} 
+
+.menu__logo {
+  font-family: 'Proto Grotesk Web Light', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 28px;
+  color: #224CFF;
+  margin: -1px 72px 3px 0;
+
+}
+
+.menu__logo-link {
+  color: #224CFF;
+  text-decoration: none;
+}
+
+.menu__logo-link:hover {
+  color: #2E2468;
+}
+
+.menu__navigation-items {
+  display: flex;
+  padding: 0;
+  margin: 7px 78px 5px 0;
+}
+
+.menu__navigation-item {
+  list-style: none;
+  margin-right: 30px;
+}
+
+.menu__navigation-item:last-child {
+  margin-right: 0;
+}
+
+.menu__navigation-link {
+  font-family: 'Proto Grotesk Web Light', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+}
+
+.menu__navigation-link:hover {
+  color: #224CFF;
+}
+
+.menu__buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu__button-search {
+  background-image: url(../../../images/search.svg);
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  padding: 0;
+  border: none;
+  outline: none;
+  width: 30px;
+  height: 30px;
+}
+
+.menu__button-account {
+  background-image: url(../../../images/account.svg);
+  background-color: transparent;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  padding: 0;
+  border: none;
+  outline: none;
+  width: 30px;
+  height: 30px;
+}
