@@ -1,0 +1,75 @@
+
+.upper-section {
+  max-width: 1920px;
+  width: 100%;
+  padding-bottom: 30px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: Proto Grotesk Web Light;
+  box-sizing: border-box;
+}
+
+.upper-section__card-m {
+  width: 870px;
+  min-height: 520px;
+  display: flex;
+  background-color: #8CDD94;
+}
+
+.upper-section__project-info-container {
+  width: 870px;
+  min-height: 364px;
+  margin: auto auto 0;
+  border-radius: 400px;
+  background-color: #FF8585;
+}
+
+.upper-section__card-m_type_projectInfoCard {
+  background-image: url(../images/main-page/info-card-bcg.png);
+  background-repeat: no-repeat;
+}
+
+.upper-section__project-info {
+  width: 570px;
+  margin: 122px auto auto;
+  text-align: center;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 30px;
+  color: #000000;
+}
+
+
+
+.upper-section__card-m_type_storyCard {
+  background-image: url(../images/main-page/story-card-bcg.jpg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.upper-section__overlay {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  position: absolute;
+  background-color: rgba(46, 46, 46, 0.8);
+  z-index: 0;
+}
+
+.upper-section__story-title {
+  width: 770px;
+  margin: auto;
+  text-align: center;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 30px;
+  color: #fff;
+  z-index: 1;
+
+
+}

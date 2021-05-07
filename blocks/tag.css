@@ -1,0 +1,11 @@
+.tag {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  color: #464646;
+  background-color: rgba(255, 255, 255, 0.3);
+}

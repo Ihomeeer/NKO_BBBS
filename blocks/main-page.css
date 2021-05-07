@@ -1,23 +1,16 @@
 .main-page {
-  max-width: 1920px;
-  margin: 85px 75px 0;
+  width: 100%;
+  padding: 85px 75px 0;
+  margin: 0;
   background-color: #F3F2F2;
   font-family: Proto Grotesk Web Light;
+  box-sizing: border-box;
 }
 
-.main-page__upper-section {
-  margin-bottom: 30px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.main-page__card {
+/* div {
   border: 1px solid red;
 }
 
-.main-page__card-m {
-  width: 870px;
-  height: 520px;
-  border-radius: 30px;
-}
+li {
+  border: 1px solid green;
+} */

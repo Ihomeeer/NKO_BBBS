@@ -1,0 +1,34 @@
+.article-section {
+  max-width: 1920px;
+  width: 100%;
+  padding-bottom: 30px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: Proto Grotesk Web Light;
+}
+
+.article-section__card_type_l {
+  width: 100%;
+  margin: 0 auto;
+  min-height: 490px;
+  display: flex;
+  flex-direction: column;
+  background-color:  #C8D1FF;
+}
+
+.article-section__title {
+  margin:  120px auto 71px;
+  align-self: center;
+  width: 970px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.article-section__link {
+  margin: 0 auto 30px;
+}
