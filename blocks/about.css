@@ -67,7 +67,7 @@
 .about__text:first-child{
   padding-top: 52px;
 }
-/* TODO почему-то не работает. Разобраться */
+
 .about__text:last-child {
   padding-bottom: 52px;
 }

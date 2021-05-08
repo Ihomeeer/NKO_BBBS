@@ -1,0 +1,10 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content__mission {
+  margin-bottom: 80px;
+}
