@@ -5,7 +5,7 @@
   padding: 0 0 80px 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1340px) {
   .logo_place_about {
     max-width: 252px;
     height: 46px;
