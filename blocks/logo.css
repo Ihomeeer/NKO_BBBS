@@ -13,7 +13,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 820px) {
   .logo_place_about {
     padding: 0 0 30px 0;
   }
