@@ -1,0 +1,45 @@
+.popup-city {
+  width: 100%;
+  height: 100%;
+  font-family: Proto Grotesk Web Light;
+}
+
+.popup-city__form-container {
+  padding-top: 50px;
+  width: 400px;
+  min-height: 547px;
+  margin: 0 auto;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.popup-city__title {
+  width: 229px;
+  height: 30px;
+  margin: 0 auto 30px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 30px;
+  color: #000000;
+
+}
+
+.popup-city__cities-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.popup-city__city-element-container {
+
+}
+
+.popup-city__city-element {
+
+}
+
+.popup-city__border {
+  width: 370px;
+  height: 1px;
+}

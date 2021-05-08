@@ -18,6 +18,10 @@
   background-color:  #C8D1FF;
 }
 
+.article-section__card_type_green {
+  background-color: #8CDD94;
+}
+
 .article-section__title {
   margin:  120px auto 71px;
   align-self: center;

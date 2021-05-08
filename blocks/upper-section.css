@@ -18,6 +18,11 @@
   background-color: #8CDD94;
 }
 
+.upper-section__logo {
+  position: absolute;
+  top: 40px;
+  left: 30px;
+}
 .upper-section__project-info-container {
   width: 870px;
   min-height: 364px;
@@ -29,6 +34,7 @@
 .upper-section__card-m_type_projectInfoCard {
   background-image: url(../images/main-page/info-card-bcg.png);
   background-repeat: no-repeat;
+  position: relative;
 }
 
 .upper-section__project-info {

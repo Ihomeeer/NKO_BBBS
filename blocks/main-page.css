@@ -7,10 +7,15 @@
   box-sizing: border-box;
 }
 
-/* div {
+
+
+
+/* для удобства верстки */
+
+div {
   border: 1px solid red;
 }
 
 li {
   border: 1px solid green;
-} */
+}

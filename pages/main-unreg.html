@@ -6,6 +6,10 @@
     <link rel="stylesheet" href="../pages/index.css">
 </head>
 <body class="page">
+  <!-- инструментарий для плагина Facebook -->
+  <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v10.0" nonce="lXt6pdoZ"></script>
+
   <header class="menu">
     <h1 class="menu__logo"><a href="#" class="menu__logo-link">наставники.про</a></h1>
     <nav class="menu__navigation">
@@ -29,6 +33,7 @@
   <div class="main-page">
     <section class="upper-section">
       <div class="card upper-section__card upper-section__card-m upper-section__card-m_type_projectInfoCard">
+        <img src="../images/main-page/logo-blue.png" alt="логотип проекта bbbs" class="upper-section__logo">
         <div class="upper-section__project-info-container">
           <p class="upper-section__project-info">Наставники.про – цифоровая информационная платформа огрганизации «Старшие Братья Старшие Сестры». Созданная для поддержки наставников программы.</p>
         </div>
@@ -51,8 +56,8 @@
       <article class="card mentors-choise-section__card_type_m">
         <h2 class="mentors-choise-section__article-title">Девока, 10 лет. Активный отдых</h2>
         <div class="mentors-choise-section__article-text">
-          <p class="mentors-choise-section__article-paragraph">Аннотация статьи в несколннотация статьи в несколько абзацзнь меняется. Вы будете не понимать друг друга, потом понимать чуть лучше и,</p>
-          <p class="mentors-choise-section__article-paragraph">Аннотация статьи в несколько абзацево слово, а задавать бесконечное кАннотация стат не одно слово, а задавать бесконечное конечное количество вопросов, жизнь меняется.</p>
+          <p class="mentors-choise-section__article-paragraph">Аннотация статьи в несколько абзацев. Абзац первый. Текст, чтобы занимать место. Текст, чтобы занимать место. Текст, чтобы занимать место. Текст, чтобы занимать место. Текст, чтобы занимать место. Текст, чтобы занимать место. Текст, чтобы занимать место. Текст, чтобы занимать место.</p>
+          <p class="mentors-choise-section__article-paragraph">Аннотация статьи в несколько абзацев. Абзац второй. Текст, чтобы занимать место. Текст, чтобы занимать место. Текст, чтобы занимать место. Текст, чтобы занимать место. Текст, чтобы занимать место.</p>
         </div>
       </article>
     </section>
@@ -115,30 +120,95 @@
       </ul>
     </section>
 
+
+    <section class="interview-section">
+      <div class="card interview-section__card_type_m">
+        <h2 class="interview-section__title">Эфир с выпускником нашей программы</h2>
+        <p class="interview-section__person">Иван Рустаев, выпускник программы</p>
+        <a href="" class="link interview-section__link">смотреть видео</a>
+      </div>
+      <div class="card interview-section__video-card">
+        <iframe class="interview-section__video" width="100%" height="100%" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </section>
+
+
+    <section class="questions-section">
+      <div class="card questions-section__card_facebook-widget">
+        <div class="fb-page" data-href="https://www.facebook.com/BigBrothers.BigSisters.Russia/" data-tabs="timeline" data-width="420" data-height="618" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+          <blockquote cite="https://www.facebook.com/BigBrothers.BigSisters.Russia/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/BigBrothers.BigSisters.Russia/">Старшие Братья Старшие Сестры / Big Brothers Big Sisters of Russia</a></blockquote>
+        </div>
+      </div>
+      <div class="questions-section__card_questions">
+        <ul class="questions-section__questions-list">
+          <li class="card questions-section__card_question">
+            <h2 class="questions-section__title">Я боюсь, что ребёнок ко мне слишком сильно привяжется. Что делать?</h2>
+            <p class="tag questions-section__tag">рубрика</p>
+          </li>
+          <li class="card questions-section__card_question">
+            <h2 class="questions-section__title">Возможно ли продлить срок участия в программе, если и я и мой «младший» хотим остаться в программе?</h2>
+            <p class="tag questions-section__tag">рубрика</p>
+          </li>
+          <li class="card questions-section__card_question">
+            <h2 class="questions-section__title">Что делать если Ваш младший решил закрыть пару, т.к. слишком занят с учебой и друзьями?</h2>
+            <p class="tag questions-section__tag">рубрика</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+    <section class="article-section">
+      <div class="card article-section__card_type_l article-section__card_type_green">
+        <h2 class="article-section__title">У таких детей возникает ощущение отверженности. Оно приводит к напряженности и  недоверию к людям и, как итог, к реальному неприятию себя и окружающих. </h2>
+        <a href="https://yandex.ru/images/search?from=tabbar&text=%D1%82%D1%80%D0%B8%D0%B6%D0%B4%D1%8B%20%D0%BC%D0%B8%D0%BB%D1%8B%D0%B5%20%D0%BA%D0%BE%D1%82%D0%B8%D0%BA%D0%B8" class="link article-section__link">читать статью</a>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="popup-city">
+      <form action="submit" class="popup-city__form-container">
+        <h2 class="popup-city__title">Выберите ваш город</h2>
+        <ul class="popup-city__cities-list">
+          <li class="popup-city__city-element-container"><a href="#" class="popup-city__element">Москва</a></li>
+          <li class="popup-city__city-element-container"><a href="#" class="popup-city__element">Санкт-Петербург</a></li>
+          <img class="popup-city__border" src="../images/main-page/popup-city-border.jpg" alt="линия разделения">
+          <li class="popup-city__city-element-container"><a href="#" class="popup-city__element">Алексин</a></li>
+        </ul>
+      </form>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   </div>
-
-
-
-
-
-
-
-    <div class="main-page__interview">
-      <div class="main-page__card"></div>
-      video.interview
-    </div>
-    <div class="main-page questions-container">
-      facebook-widget
-      <ul class="main-page__questions">
-        <li class="main-page__question"></li>
-        <li class="main-page__question"></li>
-        <li class="main-page__question"></li>
-      </ul>
-    </div>
-    <div class="main-page__article">
-      <div class="main-page__card-l"></div>
-    </div>
-
 
 
   <footer class="footer">
