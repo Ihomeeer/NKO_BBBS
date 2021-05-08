@@ -73,4 +73,9 @@
   letter-spacing: 0.2px;
   color: #224CFF;
   text-decoration: none;
+  transition: color 0.4s linear;
+}
+
+.donations__link:hover {
+  color: #C8D1FF;
 }
