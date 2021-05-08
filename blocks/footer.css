@@ -1,40 +1,55 @@
 .footer {
-  display: flex;
-  max-width: 1920px;
-  max-height: 436px;
   background-color: #2E2468;
-  padding: 90px 149px 82px 135px;
+  padding: 90px 360px 82px;
 }
 
-.footer__donation {
-  display: flex;
+.footer__container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(min-content, max-content));
+  grid-template-areas:
+  "logo donation navigation"
+  "copyright copyright navigation"
+  "creators creators navigation";
   align-items: center;
+  justify-content: center;
+  column-gap: 85px;
 }
 
 .footer__logo {
+  grid-area: logo;
   width: 415px;
   height: 76px;
-  margin: 0 85px 0 0;
 }
 
 .footer__button-donation {
-  background-image: url(../../../images/donation.svg);
-  background-color: transparent;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 0;
-  border: none;
-  outline: none;
+  grid-area: donation;
+  font-family: Proto Grotesk Web Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  border-radius: 100px;
   width: 169px;
   height: 48px;
+  color: #F3F2F2;
+  border: 1px solid #F3F2F2;
+  background-color: transparent;
 }
 
 .footer__creators {
+  grid-area: creators;
   display: flex;
   flex-direction: column;
+  font-family: PT Root UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
 }
 
 .footer__copyright {
+  grid-area: copyright;
   color: #C8D1FF;
   margin: 124px 0 12px 0;
 }
@@ -45,17 +60,24 @@
 
 .footer__creators-link {
   color: #F3F2F2;
-  font-family: 'PT Root UI';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 26px;
-  margin: 0 30px 0 0;
+  margin: 0;
+}
+
+.footer__creators-link:first-child {
+  margin-right: 30px;
+}
+
+.footer__creators-link:last-child {
+  margin: 0;
 }
 
 .footer__columns {
+  grid-area: navigation;
   display: flex;
-  padding: 0 0 0 131px;
+}
+
+.footer__column_content_info {
+  margin-left: 46px;
 }
 
 .footer__column-items {
@@ -64,7 +86,8 @@
   margin: 0;
 }
 
-.footer__column_content_info {
+.footer__column {
+  min-width: 156px;
   margin-right: 44px;
 }
 
@@ -73,7 +96,7 @@
 }
 
 .footer__column-item:last-child {
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 
 .footer__column-link {
@@ -86,6 +109,123 @@
   text-transform: uppercase;
   color: #F3F2F2;
   text-decoration: none;
-  margin-bottom: 20px;
 }
 
+@media screen and (max-width: 1919px) {
+  .footer {
+    padding: 90px 135px 82px;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .footer {
+    padding: 40px 130px 30px;
+  }
+
+  .footer__container {
+    grid-template-areas:
+    "logo"
+    "navigation"
+    "donation"
+    "creators";
+    grid-template-columns: minmax(min-content, max-content);
+    gap: 30px;
+  }
+
+  .footer__logo {
+    width: 252px;
+    height: 46px;
+    margin: 0 auto 10px;
+  }
+
+  .footer__button-donation {
+    width: 134px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 17px;
+    margin: 0 auto;
+  }
+
+  .footer__column-items {
+    display: flex;
+  }
+  
+  .footer__columns {
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 80px;
+  }
+
+  .footer__copyright {
+    margin: 0 30px 0 0;
+  }
+
+  .footer__creators {
+    flex-direction: row;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.2px;
+    margin: 0 auto;
+  }
+
+  .footer__column_content_info {
+    margin-left: 0;
+  }
+  .footer__column {
+    margin-right: 0;
+    margin: 0 auto;
+  }
+  
+  .footer__column-item {
+    margin-bottom: 0;
+    margin-right: 15px;
+  }
+
+  .footer__column-item:last-child {
+    margin-right: 0;
+  }
+
+  .footer__separator {
+    width: 100%;
+    border-bottom: 1px solid rgba(167, 166, 166, 1);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .footer {
+    padding: 40px 15px 30px;
+  }
+
+  .footer__column-items {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer__column-item:nth-child(6) {
+    margin-right: 0;
+  }
+
+  .footer__creators {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .footer-creators-links {
+    margin: 0 auto;
+  }
+
+  .footer__copyright {
+    margin: 0 auto;
+  }
+
+  .footer-creators-links {
+    flex-direction: column;
+  }
+
+  .footer__creators-link:first-child {
+    margin-right: 0;
+  }
+
+}
