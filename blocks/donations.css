@@ -79,3 +79,9 @@
 .donations__link:hover {
   color: #C8D1FF;
 }
+
+@media screen and (max-width: 1790px) {
+  .donations__card-text-container {
+    height: 369px;
+  }
+}
