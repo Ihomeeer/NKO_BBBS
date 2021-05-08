@@ -8,3 +8,9 @@
 .content__mission {
   margin-bottom: 80px;
 }
+
+@media screen and (max-width: 1024px) {
+  .content__mission {
+    margin-bottom: 50px;
+  }
+}

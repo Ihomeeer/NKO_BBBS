@@ -36,3 +36,17 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .mission__text {
+    font-size: 23px;
+    line-height: 1.3;
+  }
+
+  .mission {
+    max-width: 770px;
+  }
+
+  .mission__container {
+    margin: 30px 0 30px 0;
+  }
+}
