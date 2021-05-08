@@ -102,6 +102,9 @@
 }
 
 @media screen and (max-width: 1340px) {
+  .donations {
+    padding-bottom: 100px;
+  }
   .donations__cards {
     flex-direction: column;
     padding: 0;
@@ -135,5 +138,20 @@
     margin-bottom: 15px;
     font-size: 15px;
     line-height: 1.4;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .donations {
+    padding-bottom: 50px;
+  }
+
+  .donations__card-title {
+    max-width: 290px;
+  }
+
+  .donations__card-text-container {
+    max-width: 290px;
+    max-height: 302px;
   }
 }

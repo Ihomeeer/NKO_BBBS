@@ -50,3 +50,9 @@
     margin: 30px 0 30px 0;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .mission {
+    width: 90.63vw;
+  }
+}
