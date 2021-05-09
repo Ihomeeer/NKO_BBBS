@@ -19,6 +19,7 @@
 
 .interview-section__title {
   width: 471px;
+  margin: 30px auto 5px;
   min-height: 30px;
   align-self: center;
   font-style: normal;
@@ -32,7 +33,7 @@
 .interview-section__person {
   width: 310px;
   min-height: 19px;
-  align-self: center;
+  margin: 0 auto;
   font-family: PT Root UI;
   font-style: normal;
   font-weight: normal;
@@ -46,11 +47,10 @@
 .interview-section__link {
   width: 117px;
   height: 19px;
+  margin: auto auto 30px;
   align-self: center;
   font-style: normal;
   font-weight: 300;
-  font-size: 15px;
-  line-height: 19px;
   letter-spacing: 0.2px;
 }
 
@@ -60,6 +60,55 @@
   overflow: hidden;
 }
 
-.interview-section__video {
+@media screen and (max-width: 1919px) {
+  .interview-section__card_type_m {
+    width: 370px;
+    min-height: 451px;
+  }
+  .interview-section__title {
+    width: 310px;
+    min-height: 60px;
+  }
+  .interview-section__video-card {
+    width: calc(100% - 370px);
+    min-height: 451px;
+  }
+}
 
+@media screen and (max-width: 1439px) {
+  .interview-section {
+    flex-direction: column-reverse;
+  }
+  .interview-section__card_type_m {
+    width: 100%;
+    min-height: 147px;
+    height: 147px;
+    overflow: scroll;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .interview-section__title {
+    width: 740px;
+    min-height: 23px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .interview-section__person {
+    width: 740px;
+    min-height: 17px;
+    font-size: 12px;
+    line-height: 17px;
+  }
+  .interview-section__link {
+    margin-bottom: 15px;
+  }
+  .interview-section__video-card {
+    width: calc(100%);
+    min-height: 438px;
+    height: 438px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
 }

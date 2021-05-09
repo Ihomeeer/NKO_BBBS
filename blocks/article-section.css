@@ -34,5 +34,22 @@
 }
 
 .article-section__link {
-  margin: 0 auto 30px;
+  margin: auto auto 30px;
+}
+
+@media screen and (max-width: 1439px) {
+  .article-section__card_type_l {
+    width: 100%;
+    min-height: 312px;
+  }
+  .article-section__title {
+    width: calc(100% - 80px);
+    min-height: 69px;
+    margin-top: 30px;
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .article-section__link {
+    margin-bottom: 15px;
+  }
 }

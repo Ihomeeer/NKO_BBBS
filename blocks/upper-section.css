@@ -1,4 +1,3 @@
-
 .upper-section {
   max-width: 1920px;
   width: 100%;
@@ -29,6 +28,9 @@
   margin: auto auto 0;
   border-radius: 400px;
   background-color: #FF8585;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .upper-section__card-m_type_projectInfoCard {
@@ -39,7 +41,7 @@
 
 .upper-section__project-info {
   width: 570px;
-  margin: 122px auto auto;
+  margin: 0 auto 0;
   text-align: center;
   font-weight: 300;
   font-size: 23px;
@@ -47,13 +49,12 @@
   color: #000000;
 }
 
-
-
 .upper-section__card-m_type_storyCard {
   background-image: url(../images/main-page/story-card-bcg.jpg);
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   overflow: hidden;
 }
 
@@ -76,6 +77,51 @@
   line-height: 30px;
   color: #fff;
   z-index: 1;
+}
 
+@media screen and (max-width: 1919px) {
+  .upper-section__card-m {
+    width: calc((100% - 30px) / 2);
+    min-height: 414px;
+  }
+  .upper-section__card-m_type_projectInfoCard {
+    background-image: url(../images/main-page/info-card-bcg-1440.png);
+    background-repeat: no-repeat;
+  }
+  .upper-section__project-info-container {
+    width: 570px;
+    min-height: 290px;
+  }
+  .upper-section__overlay {
+    display: none;
+  }
+  .upper-section__story-title {
+    display: none;
+  }
+}
 
+@media screen and (max-width: 1439px) {
+  .upper-section__card-m {
+    min-height: 382px;
+  }
+  .upper-section__card-m_type_projectInfoCard {
+    background-image: url(../images/main-page/info-card-bcg-1024.png);
+  }
+  .upper-section__logo {
+    width: 164px;
+    height: 30px;
+    top: 27px;
+    left: 15px;
+  }
+  .upper-section__project-info-container {
+    width: 370px;
+    height: 292px;
+    border-radius: 70px 70px 30px 30px;
+  }
+  .upper-section__project-info {
+    width: 340px;
+    height: 115px;
+    font-size: 19px;
+    line-height: 23px;
+  }
 }

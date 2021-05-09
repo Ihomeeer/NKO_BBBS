@@ -10,8 +10,13 @@
 }
 
 
-/* 
 .link:visited {
   color:#2E2468;
-} */
+}
 
+@media screen and (max-width: 1439px){
+  .link {
+    font-size: 12px;
+    line-height: 17px;
+  }
+}

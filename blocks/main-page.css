@@ -7,15 +7,16 @@
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 1919px) {
+  .main-page {
+    padding-left: 135px;
+    padding-right: 135px;
+  }
+}
 
-
-
-/* для удобства верстки */
-
-/* div {
-  border: 1px solid red;
-} */
-
-/* li {
-  border: 1px solid green;
-} */
+@media screen and (max-width: 1439px) {
+  .main-page {
+    padding-left: 127px;
+    padding-right: 127px;
+  }
+}

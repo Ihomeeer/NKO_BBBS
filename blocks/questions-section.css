@@ -12,7 +12,12 @@
 .questions-section__card_facebook-widget {
   overflow: hidden;
   width: 420px;
-  min-height: 618px;
+  height: 618px;
+}
+
+.fb-page {
+  border-radius: 30px;
+  overflow: hidden;
 }
 
 .questions-section__card_questions {
@@ -39,7 +44,8 @@
 }
 
 .questions-section__title {
-  margin: 50px 498px auto auto;
+  margin-top: 50px;
+  margin-left: 50px;
   width: 770px;
   height: 60px;
   font-style: normal;
@@ -55,4 +61,56 @@
   width: 65px;
   min-height: 17px;
   background-color: #F3F2F2;
+}
+
+.questions-section__card_facebook-widget {
+  display: grid;
+  grid-template-columns: 420px;
+  grid-template-rows: 618px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1919px) {
+  .questions-section__card_questions {
+    width: calc(100% - 400px);
+    overflow: hidden;
+  }
+  .questions-section__card_facebook-widget {
+    grid-template-columns: 370px;
+    grid-template-rows: 627px;
+  }
+  .questions-section__title {
+    width: calc(100% - 100px);
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .questions-section__questions-list {
+    height: 545px;
+  }
+  .questions-section__card_questions {
+    min-height: 100%;
+  }
+  .questions-section__card_facebook-widget {
+    grid-template-rows: 545px;
+    height: 545px;
+    width: 370px;
+  }
+  .questions-section__card_question {
+    width: 100%;
+    min-height: 161px;
+    overflow: scroll;
+  }
+  .questions-section__title {
+    width: 339px;
+    min-height: 69px;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: auto;
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .questions-section__tag {
+    margin: 17px auto auto 17px;
+  }
 }
