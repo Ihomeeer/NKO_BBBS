@@ -23,7 +23,7 @@
 
 .footer__button-donation {
   grid-area: donation;
-  font-family: Proto Grotesk Web Light;
+  font-family: 'Proto Grotesk Web Light';
   font-style: normal;
   font-weight: 300;
   font-size: 12px;
@@ -121,7 +121,7 @@
 }
 
 .footer__column-link:hover {
-  color: #224CFF;
+  color: #C8D1FF;
 }
 
 @media screen and (max-width: 1919px) {
