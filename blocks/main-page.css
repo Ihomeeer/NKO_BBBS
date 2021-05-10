@@ -1,0 +1,29 @@
+.main-page {
+  width: 100%;
+  padding: 85px 75px 0;
+  margin: 0;
+  background-color: #F3F2F2;
+  font-family: Proto Grotesk Web Light;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1919px) {
+  .main-page {
+    padding-left: 135px;
+    padding-right: 135px;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .main-page {
+    padding-left: 127px;
+    padding-right: 127px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .main-page {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

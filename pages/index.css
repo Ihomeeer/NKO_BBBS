@@ -3,6 +3,17 @@
 @import url(../blocks/page.css);
 @import url(../blocks/menu.css);
 @import url(../blocks/footer.css);
+@import url(../blocks/main-page.css);
+@import url(../blocks/card.css);
+@import url(../blocks/link.css);
+@import url(../blocks/tag.css);
+@import url(../blocks/upper-section.css);
+@import url(../blocks/mentors-choise-section.css);
+@import url(../blocks/article-section.css);
+@import url(../blocks/films-section.css);
+@import url(../blocks/interview-section.css);
+@import url(../blocks/questions-section.css);
+@import url(../blocks/popup-city.css);
 @import url(../blocks/about.css);
 @import url(../blocks/logo.css);
 @import url(../blocks/mission.css);
