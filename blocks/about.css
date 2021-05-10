@@ -1,0 +1,155 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 0 80px 0;
+  max-width: 1170px;
+  min-width: 320px;
+  box-sizing: border-box;
+}
+
+.about__title {
+  font-family: 'Proto Grotesk Web Light';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 1.14;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.about__subtitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.about__cirlce {
+  width: 570px;
+  height: 570px;
+  background-color: #F8D162;
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__circle-text {
+  font-family: 'Proto Grotesk Web Light';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 1.3;
+  text-align: center;
+  margin: 0;
+}
+
+.about__text-container {
+  max-width: 600px;
+  background: #FFFFFF;
+  border-radius: 30px;
+}
+
+.about__text {
+  font-family: 'PT Root UI';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.44;
+  margin: 0;
+  padding: 0px 30px 25px 30px;
+}
+
+.about__text:first-child{
+  padding-top: 52px;
+}
+
+.about__text:last-child {
+  padding-bottom: 52px;
+}
+
+@media screen and (max-width: 1440px) {
+  .about__title {
+    max-width: 1030px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .about {
+    max-width: 770px;
+    padding: 30px 0 50px 0;
+  }
+
+  .about__title {
+    font-size: 19px;
+    line-height: 1.21;
+    padding-bottom: 30px;
+  }
+
+  .about__subtitle {
+    flex-direction: column;
+  }
+
+  .about__cirlce {
+    width: 370px;
+    height: 358px;
+  }
+
+  .about__circle-text {
+    font-size: 19px;
+    line-height: 1.21;
+  }
+
+  .about__text-container {
+    max-width: 570px;
+  }
+
+  .about__text {
+    padding: 0 15px 18px 15px;
+    font-size: 15px;
+    line-height: 1.4;
+  }
+
+  .about__text:first-child{
+    padding-top: 30px;
+  }
+
+  .about__text:last-child {
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .about__title {
+    box-sizing: border-box;
+    padding: 0 15px 50px 15px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .about {
+    width: 320px;
+    padding: 10px 15px 50px 15px;
+  }
+
+  .about__title {
+    font-size: 19px;
+    line-height: 1.21;
+    padding: 0 0px 50px 0px;
+  }
+
+  .about__cirlce {
+    width: 290px;
+    height: 280px;
+  }
+
+  .about__text {
+    padding: 0 15px 18px 15px;
+  }
+}

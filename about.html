@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Михаил Киричков, Ирина Василькова, Владимир Блинов">
+    <title>Старшие братья, старшие сёстры</title>
+    <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body class="page">
+
+  <header class="menu">
+    <h1 class="menu__logo"><a href="#" class="menu__logo-link">наставники.про</a></h1>
+    <nav class="menu__navigation">
+      <ul class="menu__navigation-items">
+        <li class="menu__navigation-item"><a href="#" class="menu__navigation-link">календарь</a></li>
+        <li class="menu__navigation-item"><a href="#" class="menu__navigation-link">куда пойти</a></li>
+        <li class="menu__navigation-item"><a href="#" class="menu__navigation-link">вопросы</a></li>
+        <li class="menu__navigation-item"><a href="#" class="menu__navigation-link">читать и смотреть</a></li>
+        <li class="menu__navigation-item"><a href="#" class="menu__navigation-link">права детей</a></li>
+        <li class="menu__navigation-item"><a href="#" class="menu__navigation-link">истории</a></li>
+      </ul>
+    </nav>
+    <div class="menu__buttons">
+      <button type="submit" class="menu__button-search"></button>
+      <span class="menu__separator"></span>
+      <button type="submit" class="menu__button-account"></button>
+    </div>
+    <div class="menu__icon" onclick="menuIcon(this)">
+      <div class="menu__icon1"></div>
+      <div class="menu__icon2"></div>
+      <div class="menu__icon3"></div>
+    </div>
+  </header>
+
+  <main class="content">
+
+    <section class="about">
+      <h1 class="about__title">Наставники.про – цифоровая информационная платформа огрганизации «Старшие Братья Старшие Сестры». Созданная для поддержки наставников программы.</h1>
+      <img src="./images/logo-blue.svg" alt="Логотип проекта Сташие Братья Старшие Сёстры синего цвета" class="logo logo_place_about">
+      <article class="about__subtitle">
+        <div class="about__cirlce">
+          <h2 class="about__circle-text">Об организации</h2>
+        </div>
+        <div class="about__text-container">
+          <p class="about__text">«Старшие Братья Старшие Сестры» —&nbsp;межрегиональная общественная организация содействия воспитанию подрастающего поколения. Мы поддерживаем детей, которым требуется внимание: оставшихся без попечения родителей, приемных, детей из неполных, многодетных или неблагополучных семей, детей с ограниченными возможностями.</p>
+          <p class="about__text">Любому человеку, тем более ребенку, необходимо общение. Без него дети растут неуверенными и замкнутыми. Одиночество токсично, а самое надежное противоядие – дружба.</p>
+          <p class="about__text">Мы помогаем детям, которым не хватает поддержки взрослого друга, «Младшим». Таким другом становится наш волонтер, «Старший». Он принимает ребенка, какой он есть, поддерживает, помогает раскрыть потенциал, почувствовать уверенность в своих силах, узнать элементарные вещи о жизни, адаптироваться и полноценно участвовать в жизни общества.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="mission content__mission">
+      <article class="mission__container">
+        <p class="mission__text">Мы хотим, чтобы наставник был у каждого ребенка, который в нем нуждается</p>
+      </article>
+    </section>
+
+    <section class="donations">
+      <ul class="donations__cards">
+        <li class="donations__card">
+          <h2 class="donations__card-title">Пожертвования</h2>
+          <div class="donations__card-text-container">
+            <p class="donations__card_text">Деньги пойдут на оплату работы кураторов программы (профессиональные психологи/социальные работники), которые поддерживают дружбу между ребенком и наставником.</p>
+            <a href="#" class="donations__link">сделать пожертвование</a>
+          </div>
+        </li>
+        <li class="donations__card">
+          <h2 class="donations__card-title">Наставничество</h2>
+          <div class="donations__card-text-container">
+            <p class="donations__card_text">Наставник «Старшие Братья Старшие Сестры» — значимый взрослый, который становится для ребенка старшим другом, ролевой моделью, принимает своего «Младшего» таким, какой он есть. «Старший» открывает для ребенка дверь в большой мир и дарит ему надежду на более счастливое и успешное будущее.</p>
+            <a href="#" class="donations__link">подробнее</a>
+          </div>
+        </li>
+        <li class="donations__card">
+          <h2 class="donations__card-title">Партнёрство</h2>
+          <div class="donations__card-text-container">
+            <p class="donations__card_text">Компании поддерживают нас не только деньгами, но и делами. Мы собрали все возможные способы поддержки и сотрудничества: профессиональная помощь Pro Bono, организационная помощь, корпоративное волонтерство, мастер-классы, лекции, учебные программы.</p>
+            <a href="#" class="donations__link">подробнее</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <img class="footer__logo" src="./images/logo_bbbs.png" alt="Логотип">
+      <button type="submit" class="footer__button-donation">Помочь деньгами</button>
+      <div class="footer__creators">
+        <p class="footer__copyright">&#169;Старшие Братья Старшие Сестры</p>
+        <div class="footer__creators-items">
+          <p class="footer__creators-item">Разработка – студенты <a href="https://praktikum.yandex.ru" target="_blank" class="footer__creators-link">Яндекс.Практикум</a></p>
+          <p class="footer__creators-item">Концепция и дизайн – <a href="https://krkr.design/" target="_blank" class="footer__creators-link">krkr.design</a></p>
+        </div>
+      </div>
+      <div class="footer__columns">
+        <nav class="footer__column footer__column_content_info">
+          <ul class="footer__column-items">
+            <li class="footer__column-item"><a href="#" class="footer__column-link">о проекте</a></li>
+            <li class="footer__column-item"><a href="#" class="footer__column-link">календарь</a></li>
+            <li class="footer__column-item"><a href="#" class="footer__column-link">куда пойти</a></li>
+            <li class="footer__column-item"><a href="#" class="footer__column-link">вопросы</a></li>
+            <li class="footer__column-item"><a href="#" class="footer__column-link">читать и смотреть</a></li>
+            <li class="footer__column-item"><a href="#" class="footer__column-link">права детей</a></li>
+            <li class="footer__column-item"><a href="#" class="footer__column-link">истории</a></li>
+          </ul>
+        </nav>
+        <span class="footer__separator"></span>
+        <div class="footer__column footer__column_content_social">
+          <ul class="footer__column-items">
+            <li class="footer__column-item"><a href="https://www.facebook.com/BigBrothers.BigSisters.Russia/" target="_blank" class="footer__column-link">Facebook</a></li>
+            <li class="footer__column-item"><a href="https://vk.com/big.brothers.big.sisters" target="_blank" class="footer__column-link">VKontakte</a></li>
+            <li class="footer__column-item"><a href="https://www.instagram.com/nastavniki_org/" target="_blank" class="footer__column-link">Instagram</a></li>
+            <li class="footer__column-item"><a href="https://www.youtube.com/channel/UCZw2yHDmJWOVVVzW0VQBzoA" target="_blank" class="footer__column-link">Уoutube</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./scripts/index.js"></script>
+</body>
+</html>
