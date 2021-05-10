@@ -1,0 +1,49 @@
+.popup-success__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 670px;
+}
+
+.popup-success__img {
+  width: 413px;
+  height: 169px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.popup-success__text {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.popup-success__paragraph {
+  font-family: Proto Grotesk Web Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+  margin: 0 0 15px 0;
+}
+
+.popup-success__paragraph:last-child {
+  margin: 0;
+}
+
+.popup-success__button {
+  width: 215px;
+  height: 48px;
+  font-family: Proto Grotesk Web Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: #000000;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 100px;
+  background-color: transparent;
+}
