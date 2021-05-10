@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 0 80px 0;
+  padding: 80px 0 80px 0;
   max-width: 1170px;
   min-width: 320px;
   box-sizing: border-box;
@@ -83,7 +83,7 @@
 @media screen and (max-width: 1280px) {
   .about {
     max-width: 770px;
-    padding: 0 0 50px 0;
+    padding: 30px 0 50px 0;
   }
 
   .about__title {
@@ -135,7 +135,7 @@
 @media screen and (max-width: 620px) {
   .about {
     width: 320px;
-    padding: 0 15px 50px 15px;
+    padding: 10px 15px 50px 15px;
   }
 
   .about__title {
