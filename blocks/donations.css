@@ -80,13 +80,8 @@
   color: #C8D1FF;
 }
 
-@media screen and (max-width: 1790px) {
-  .donations__card-text-container {
-    max-height: 369px;
-  }
-}
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1900px) {
   .donations__card {
     max-width: 370px;
   }
