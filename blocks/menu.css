@@ -52,6 +52,7 @@
   text-transform: uppercase;
   color: #000000;
   text-decoration: none;
+  transition: color 0.3s linear;
 }
 
 .menu__navigation-link:hover {

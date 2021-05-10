@@ -102,6 +102,7 @@
   margin-bottom: 20px;
 }
 
+
 .footer__column-item:last-child {
   margin-bottom: 0px;
 }
@@ -116,6 +117,11 @@
   text-transform: uppercase;
   color: #F3F2F2;
   text-decoration: none;
+  transition: color 0.3s linear;
+}
+
+.footer__column-link:hover {
+  color: #224CFF;
 }
 
 @media screen and (max-width: 1919px) {
@@ -212,6 +218,7 @@
 
   .footer__column-item {
     padding-bottom: 15px;
+    transition: color 0.3s linear;
   }
 
   .footer__column-item:last-child {
