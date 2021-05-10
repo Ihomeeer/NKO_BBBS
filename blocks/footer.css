@@ -68,6 +68,11 @@
   text-decoration: none;
   color: #F3F2F2;
   border-bottom: 0.3px solid #F3F2F2;
+  transition: color .3s linear;
+}
+
+.footer__creators-link:hover {
+  color: #C8D1FF;
 }
 
 .footer__creators-item:first-child {
