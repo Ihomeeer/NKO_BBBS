@@ -79,7 +79,7 @@
   "guests date"
   "title number";
   gap: 10px;
-  
+
 }
 
 .calendar__meeting-paragraph {
@@ -241,7 +241,7 @@
     width: 82px;
     height: 40px;
   }
-  
+
   .calendar__container {
     width: calc(100% - 2 * 127px);
     padding-top: 50px;
