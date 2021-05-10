@@ -198,7 +198,7 @@
 }
 
 .calendar__detail-button {
-  background-image: url(../../../images/button_points.svg);
+  background-image: url(../images/button_points.svg);
   background-color: transparent;
   background-position: center;
   background-size: cover;
@@ -313,13 +313,17 @@
     width: calc(100% - 2 * 15px);
     padding-top: 30px;
     padding-bottom: 50px;
-    grid-template-columns: repeat(auto-fill, 290px);
+    grid-template-columns: repeat(1, 290px);
   }
 
   .calendar__meeting {
     grid-template-areas:
     "guests date date"
     "title title number";
-  gap: 10px;
+    gap: 10px;
+  }
+
+  .calendar__info {
+    padding-top: 50px;
   }
 }

@@ -135,7 +135,7 @@
 
   <footer class="footer">
     <div class="footer__container">
-      <img class="footer__logo" src="./images/logo_bbbs.png" alr="Логотип">
+      <img class="footer__logo" src="./images/logo_bbbs.png" alt="Логотип">
       <button type="submit" class="footer__button-donation">Помочь деньгами</button>
       <div class="footer__creators">
         <p class="footer__copyright">&#169;Старшие Братья Старшие Сестры</p>
@@ -167,8 +167,62 @@
         </div>
       </div>
     </div>
-      
   </footer>
+
+  <div class="popup popup-calendar"> 
+    <div class="popup__container"> 
+      <button type="button" class="popup__close-button"></button> 
+      <div class="calendar__meeting">
+        <p class="calendar__meeting-paragraph">Волонтёры + дети</p>
+        <p class="calendar__meeting-date">декабрь / понедельник</p>
+        <h2 class="calendar__meeting-title">Субботний meet up: учимся проходить интервью</h2>
+        <p class="calendar__meeting-number">23</p>
+      </div>
+      <div class="calendar__info">
+        <p class="calendar__info-paragraph">12:00–14:00</p>
+        <p class="calendar__info-paragraph">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
+        <p class="calendar__info-paragraph">Александра, +7 926 356-78-90</p>
+      </div>
+      <p class="popup-calendar__about">
+        Наконец-то наступила весна и мы пережили эту долгую зиму! И возможно, 
+        что внутренних сил и ресурса сейчас не так много, а до окончания учебного года ещё целых несколько месяцев. 
+        Поэтому приглашаем вас на встречу нашего ресурсного клуба "Наставник PRO", 
+        которую мы хотим посвятить теме поиска моральных сил, 
+        смыслов и внутреннего ресурса для общения и взаимодействия с нашими подопечными. </p>
+      <div class="calendar__booking">
+        <button class="calendar__booking-button">Записаться</button>
+        <p class="calendar__booking-place">Осталось <span class="calendar__booking-amount">5</span> мест</p>
+      </div>
+    </div> 
+  </div>
+
+  <div class="popup popup-confirm">
+    <div class="popup__container popup-confirm__container">
+      <button type="button" class="popup__close-button"></button> 
+      <p class="popup-confirm__paragraph">
+        Подтвердить запись на мероприятие 
+        «Субботний meet up: учимся проходить интервью» 
+        5 декабря с 12:00–14:00</p>
+      <div class="popup-confirm__buttons">
+        <button class="popup-confirm__confirm-button">Подтвердить запись</button>
+        <button class="popup-confirm__cancel-button">Отменить</button>
+      </div>
+    </div>
+  </div>
+  <div class="popup popup-success">
+    <div class="popup__container popup-success__container">
+      <button type="button" class="popup__close-button"></button> 
+      <img class="popup-success__img" src="./images/img_success.svg" alt="Геометрия">
+      <div class="popup-success__text">
+        <p class="popup-success__paragraph">
+          Вы записаны на мероприятие 
+          «Субботний meet up: учимся проходить интервью»
+          5 декабря с 12:00–14:00.
+        <p class="popup-success__paragraph">Если у вас не получится прийти — отмените, пожалуйста, запись.</p>
+      </div>
+      <button class="popup-success__button">Вернуться к календарю </button>
+    </div>
+  </div>
 <script src="./scripts/index.js"></script>
 </body>
 </html> 

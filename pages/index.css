@@ -4,3 +4,7 @@
 @import url(../blocks/menu.css);
 @import url(../blocks/footer.css);
 @import url(../blocks/calendar.css);
+@import url(../blocks/popup.css);
+@import url(../blocks/popup-calendar.css);
+@import url(../blocks/popup-confirm.css);
+@import url(../blocks/popup-success.css);
