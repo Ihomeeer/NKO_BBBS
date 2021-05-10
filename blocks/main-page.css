@@ -20,3 +20,10 @@
     padding-right: 127px;
   }
 }
+
+@media screen and (max-width: 1023px) {
+  .main-page {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

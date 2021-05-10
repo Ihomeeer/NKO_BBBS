@@ -115,12 +115,37 @@
   }
   .upper-section__project-info-container {
     width: 370px;
-    height: 292px;
+    min-height: 292px;
     border-radius: 70px 70px 30px 30px;
   }
   .upper-section__project-info {
     width: 340px;
-    height: 115px;
+    min-height: 115px;
+    font-size: 19px;
+    line-height: 23px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .upper-section {
+    flex-direction: column;
+  }
+  .upper-section__card-m {
+    width: 100%;
+    min-height: 290px;
+  }
+  .upper-section__card-m_type_projectInfoCard {
+    background-image: url(../images/main-page/info-card-bcg-320.png);
+    min-height: 333px;
+    margin-bottom: 30px;
+  }
+  .upper-section__project-info-container {
+    width: 100%;
+    min-height: 255px;
+  }
+  .upper-section__project-info {
+    width: 260px;
+    min-height: 184px;
     font-size: 19px;
     line-height: 23px;
   }

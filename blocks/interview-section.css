@@ -105,10 +105,24 @@
     margin-bottom: 15px;
   }
   .interview-section__video-card {
-    width: calc(100%);
+    width: 100%;
     min-height: 438px;
     height: 438px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .interview-section__video-card {
+    min-height: 165px;
+    height: 165px;
+  }
+  .interview-section__title {
+    width: 260px;
+    min-height: 46px;
+  }
+  .interview-section__person {
+    width: 260px;
   }
 }

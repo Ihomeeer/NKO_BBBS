@@ -29,6 +29,10 @@
   margin-left: 0;
 }
 
+.films-section__card_type_s:last-child {
+  margin-right: 0;
+}
+
 .films-section__card-cover {
   width: 100%;
   height: 239px;
@@ -131,5 +135,30 @@
     width: 109px;
     min-height: 17px;
     margin-top: 55px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .films-section__card_type_s {
+    min-width: 290px;
+    min-height: 300px;
+  }
+  .films-section__card-cover {
+    height: 163px;
+    background-size: cover;
+  }
+  .films-section__tag-container {
+    margin-top: 135px;
+  }
+  .films-section__card-title {
+    min-height: 46px;
+    width: 260px;
+  }
+  .films-section__card-authors {
+    min-height: 34px;
+    width: 260px;
+  }
+  .films-section__link {
+    margin-top: 15px;
   }
 }

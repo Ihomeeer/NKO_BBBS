@@ -164,3 +164,20 @@
     line-height: 21px;
   }
 }
+
+@media screen and (max-width: 1023px) {
+  .mentors-choise-section__card_type_l {
+    min-height: 333px;
+  }
+  .mentors-choise-section__title {
+    width: calc(100% - 30px);
+  }
+  .mentors-choise-section__subtitle {
+    width: calc(100% - 30px);
+    margin-top: 0;
+  }
+  .mentors-choise-section__photo {
+    width: calc(100% - 30px);
+    height: 142px;
+  }
+}
