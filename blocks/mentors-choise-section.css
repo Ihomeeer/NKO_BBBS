@@ -91,7 +91,7 @@
   width: 540px;
   min-height: 389px;
   margin-bottom: 69px;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 .mentors-choise-section__article-paragraph {
