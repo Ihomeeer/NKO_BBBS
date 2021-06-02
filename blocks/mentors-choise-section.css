@@ -53,9 +53,12 @@
   margin: 70px auto 15px;
   border-radius: 15px;
   align-self: center;
+  background-image: url(../images/main-page/mentors-choice-photo.jpg);
+  background-size: cover;
   width: 1125px;
   height: 394px;
 }
+
 
 .mentors-choise-section__link {
   width: 121px;

@@ -7,6 +7,7 @@
   flex-direction: row;
   justify-content: space-between;
   font-family: Proto Grotesk Web Light;
+  overflow: hidden;
 }
 
 .questions-section__card_facebook-widget {
@@ -104,7 +105,7 @@
   .questions-section__card_question {
     width: 100%;
     min-height: 161px;
-    overflow: scroll;
+    overflow: hidden;
   }
   .questions-section__title {
     width: 339px;
